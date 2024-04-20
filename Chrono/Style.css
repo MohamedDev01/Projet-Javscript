@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box; 
+    font-family: "Oswald", sans-serif;
+
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(231, 75, 13);
+}
+
+.TopChrono
+{
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius: 6px;
+    width: 400px;
+    text-align:center;
+}
+
+Time
+{
+    margin: auto;
+    width: 100%;
+    border: 1px solid #999; 
+    border-radius: 6px;
+    padding: 6px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+Time span
+{
+    font-family: "Micro 5", sans-serif;
+    padding: 5px;
+}
+
+.Controls
+{
+    display: flex;
+    width:100px;
+    justify-content: space-between;
+}
+
+button
+{
+    background-color: rgb(231, 75, 13);
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 150%;
+    border: 0;
+    letter-spacing: 3px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+}
+
+button:hover
+{
+    transform: scale(0.9);
+    background-color:black;
+}
